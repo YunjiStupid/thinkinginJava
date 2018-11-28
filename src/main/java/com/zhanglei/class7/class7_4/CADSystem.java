@@ -49,7 +49,13 @@ class Line extends Shape{
 
 public class CADSystem extends Shape{
     private Circle c;
+    {
+        System.out.println("c = " + c);
+    }
     private Triangle t;
+    {
+        System.out.println("t = " + t);
+    }
     private Line[] lines = new Line[3];
     public CADSystem(int i){
         super(i + 1);
