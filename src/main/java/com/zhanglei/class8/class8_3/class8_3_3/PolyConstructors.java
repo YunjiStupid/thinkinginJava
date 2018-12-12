@@ -23,6 +23,10 @@ class RoundGlyph extends Glyph{
         radius = r;
         System.out.println("RoundGlyph.RoundGlyph(). radius = " + radius);
     }
+    @Override
+    void draw(){
+        System.out.println("RoundGlyph.draw()");
+    }
 }
 
 public class PolyConstructors {
